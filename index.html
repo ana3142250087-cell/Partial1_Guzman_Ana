@@ -1,16 +1,86 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>This is my first webpage</title>
-</head>
-<body>
-    <center>
-        <h1>Welcome to my first webpage</h1>
-    </center>
-    <center>
-        <h2>Ana Sofia Guzman Aguirre 4B</h2>
-    </center>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            text-align: center;
+        }
+
+        h2 {
+            color: #fcfcfc;
+        }
+
+        .boton {
+            background-color: #15ff00;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 10px 10px 10px #011fff;
+        }
+
+        .boton:hover {
+            background-color: #2100b3;
+            transform: scale(1.05);
+        }
+        .botons{
+            background-color: #ff0000;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 10px 10px 10px #ffae00;
+            margin-left: 50px;
+        }
+        .botons:hover {
+            background-color: #ffbc03;
+            transform: scale(1.05);
+        }
+        .botones{
+            background-color: #00e1ff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 10px 10px 10px #2fff00;
+            margin-top: 50px;
+        }
+        .botones:hover {
+            background-color: #00ff26;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Ana Sofia Guzman Aguirre 4B</h2>
+
+    <button class="boton" onclick="window.location.href='C:/Users/anitt/OneDrive/Desktop/practices/Empresa.html'">
+        Diagram of principal process of my company
+    </button>
+    <button class="botons" onclick="window.location.href='C:\Users\anitt\OneDrive\Desktop\practices\Money.html'">
+        Diagram of how can i make money in my company
+    </button>
+    <button class="botones" onclick="window.location.href='C:\Users\anitt\OneDrive\Desktop\practices\Customers.html'">
+        Diagram of how can i make customers in my company
+    </button>
 </body>
 </html>
+
+

@@ -1,0 +1,115 @@
+<mxfile host="65bd71144e">
+    <diagram id="kaCB7DJncalExHjvKVlG" name="Page-1">
+        <mxGraphModel dx="729" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="32" edge="1" parent="1" source="2" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Inicio" vertex="1">
+                    <mxGeometry height="40" width="130" x="210" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Adaptar plataforma&lt;div&gt;para cualquier tipo de estudiante&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="120" width="215" x="167.5" y="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Subir a redes sociales y promocionar" vertex="1">
+                    <mxGeometry height="120" width="215" x="167.5" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ofrecer prueba gratuita&lt;div&gt;por 1 semana&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="120" width="215" x="167.5" y="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿Resultado&lt;div&gt;positivo?&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="150" width="155" x="197.5" y="780" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" edge="1" parent="1" source="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Lanzar suscripción" vertex="1">
+                    <mxGeometry height="95" width="180" x="460" y="807.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Fin" vertex="1">
+                    <mxGeometry height="60" width="120" x="490" y="1200" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ajustar funciones&lt;div&gt;segun el feedback recibido&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="100" width="215" x="170" y="1020" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" edge="1" parent="1" source="4" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="5" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="250" y="340" as="sourcePoint"/>
+                        <mxPoint x="300" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" edge="1" parent="1" source="5" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="6" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="250" y="520" as="sourcePoint"/>
+                        <mxPoint x="300" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" edge="1" parent="1" source="6" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="7" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="250" y="680" as="sourcePoint"/>
+                        <mxPoint x="300" y="630" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" edge="1" parent="1" source="7" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="250" y="820" as="sourcePoint"/>
+                        <mxPoint x="300" y="770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" edge="1" parent="1" source="7" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="10" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="350" y="990" as="sourcePoint"/>
+                        <mxPoint x="400" y="940" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" edge="1" parent="1" source="10" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="180" y="930" as="sourcePoint"/>
+                        <mxPoint x="40" y="1070" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="40" y="1070" as="sourcePoint"/>
+                        <mxPoint x="40" y="660" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0.017;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;" target="6" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="40" y="660" as="sourcePoint"/>
+                        <mxPoint x="230" y="880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="si" vertex="1">
+                    <mxGeometry height="30" width="60" x="365" y="820" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="no" vertex="1">
+                    <mxGeometry height="30" width="60" x="280" y="1005" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Diagrama de flujo: Aplicacio para aprendizaje de ingles mediante speaking, reading y writing" vertex="1">
+                    <mxGeometry height="150" width="120" x="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" edge="1" parent="1" source="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Investigar diferentes aplicaciones para generar una idea" vertex="1">
+                    <mxGeometry height="120" width="207.5" x="171.25" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" edge="1" parent="1" source="26" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Conseguir testimonios" vertex="1">
+                    <mxGeometry height="95" width="180" x="460" y="940" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" edge="1" parent="1" source="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Escalar a mas escuelas" vertex="1">
+                    <mxGeometry height="95" width="180" x="460" y="1080" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
