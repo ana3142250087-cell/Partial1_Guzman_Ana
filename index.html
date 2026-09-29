@@ -3,84 +3,163 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>This is my first webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Company - Ana Sofia Guzman Aguirre</title>
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            background-color: #000000;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f172a, #1e1b4b, #312e81);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .contenedor {
+            width: 100%;
+            max-width: 950px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 25px;
+            padding: 50px 35px;
             text-align: center;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
         }
 
         h2 {
-            color: #fcfcfc;
+            font-size: 18px;
+            color: #a5b4fc;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .descripcion {
+            color: #d1d5db;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .botones {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
         }
 
         .boton {
-            background-color: #15ff00;
+            text-decoration: none;
             color: white;
-            padding: 15px 30px;
-            border: none;
-            border-radius: 10px;
-            font-size: 16px;
-            cursor: pointer;
+            padding: 30px 20px;
+            border-radius: 18px;
+            font-size: 17px;
+            font-weight: bold;
             transition: 0.3s;
-            box-shadow: 10px 10px 10px #011fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 170px;
+            border: 1px solid rgba(255,255,255,0.15);
         }
 
         .boton:hover {
-            background-color: #2100b3;
-            transform: scale(1.05);
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.35);
         }
-        .botons{
-            background-color: #ff0000;
-            color: white;
-            padding: 15px 30px;
-            border: none;
-            border-radius: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: 0.3s;
-            box-shadow: 10px 10px 10px #ffae00;
-            margin-left: 50px;
+
+        .icono {
+            font-size: 45px;
+            margin-bottom: 18px;
         }
-        .botons:hover {
-            background-color: #ffbc03;
-            transform: scale(1.05);
+
+        .empresa {
+            background: linear-gradient(135deg, #16a34a, #22c55e);
         }
-        .botones{
-            background-color: #00e1ff;
-            color: white;
-            padding: 15px 30px;
-            border: none;
-            border-radius: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: 0.3s;
-            box-shadow: 10px 10px 10px #2fff00;
-            margin-top: 50px;
+
+        .dinero {
+            background: linear-gradient(135deg, #dc2626, #f97316);
         }
-        .botones:hover {
-            background-color: #00ff26;
-            transform: scale(1.05);
+
+        .clientes {
+            background: linear-gradient(135deg, #0891b2, #2563eb);
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #9ca3af;
+            font-size: 14px;
+        }
+
+        @media (max-width: 750px) {
+            .botones {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .contenedor {
+                padding: 35px 20px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <h2>Ana Sofia Guzman Aguirre 4B</h2>
+    <div class="contenedor">
 
-    <button class="boton" onclick="window.location.href='C:/Users/anitt/OneDrive/Desktop/practices/Empresa.html'">
-        Diagram of principal process of my company
-    </button>
-    <button class="botons" onclick="window.location.href='C:\Users\anitt\OneDrive\Desktop\practices\Money.html'">
-        Diagram of how can i make money in my company
-    </button>
-    <button class="botones" onclick="window.location.href='C:\Users\anitt\OneDrive\Desktop\practices\Customers.html'">
-        Diagram of how can i make customers in my company
-    </button>
+        <h2>ANA SOFIA GUZMAN AGUIRRE 4B</h2>
+
+        <h1>My Company</h1>
+
+        <p class="descripcion">
+            Explore the diagrams of my company and its main processes.
+        </p>
+
+        <div class="botones">
+
+            <!-- Diagrama principal -->
+            <a href="Empresa.html" class="boton empresa">
+                <div class="icono">🏢</div>
+                <div>Principal Process</div>
+            </a>
+
+            <!-- Cómo hacer dinero -->
+            <a href="Money.html" class="boton dinero">
+                <div class="icono">💰</div>
+                <div>How Can I Make Money?</div>
+            </a>
+
+            <!-- Cómo conseguir clientes -->
+            <a href="Customers.html" class="boton clientes">
+                <div class="icono">👥</div>
+                <div>How Can I Get Customers?</div>
+            </a>
+
+        </div>
+
+        <footer>
+            Information Technology Engineering · Universidad Tecnológica de Durango
+        </footer>
+
+    </div>
+
 </body>
 </html>
-
-
