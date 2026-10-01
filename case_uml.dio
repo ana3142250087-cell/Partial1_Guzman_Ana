@@ -1,0 +1,215 @@
+<mxfile host="65bd71144e">
+    <diagram name="Fase 1: preparación" id="LXBlbz3HWBFLClQFYLw3">
+        <mxGraphModel dx="749" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="p1-sistema" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=5 4;fillColor=none;verticalAlign=top;fontStyle=1;fontSize=14;arcSize=3;" value="Fase 1: preparación" vertex="1">
+                    <mxGeometry height="510" width="300" x="190" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-ana" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Ana&lt;/b&gt;&lt;br&gt;Líder y Firebase" vertex="1">
+                    <mxGeometry height="80" width="40" x="50" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-c1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Compañero 1&lt;/b&gt;&lt;br&gt;Diseño de interfaz" vertex="1">
+                    <mxGeometry height="80" width="40" x="590" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-c2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Compañero 2&lt;/b&gt;&lt;br&gt;Código" vertex="1">
+                    <mxGeometry height="80" width="40" x="50" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-c3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Compañero 3&lt;/b&gt;&lt;br&gt;Pruebas y documentos" vertex="1">
+                    <mxGeometry height="80" width="40" x="590" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-o1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;" value="Configurar Firebase" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-e1" edge="1" parent="1" source="p1-ana" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p1-o1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-o2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;" value="Definir permisos" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-e2" edge="1" parent="1" source="p1-ana" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p1-o2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-o3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B0E3E6;strokeColor=#0E8088;" value="Elegir colores y logo" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="178" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-e3" edge="1" parent="1" source="p1-c1" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p1-o3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-o4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B0E3E6;strokeColor=#0E8088;" value="Bocetar pantallas" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="238" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-e4" edge="1" parent="1" source="p1-c1" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p1-o4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-o5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="Cargar cursos y unidades" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="298" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-e5" edge="1" parent="1" source="p1-c2" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p1-o5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-o6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="Programar inicio de sesión" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="358" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-e6" edge="1" parent="1" source="p1-c2" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p1-o6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-o7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCCE6;strokeColor=#B5739D;" value="Listar requisitos" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="418" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-e7" edge="1" parent="1" source="p1-c3" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p1-o7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-o8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCCE6;strokeColor=#B5739D;" value="Definir casos de prueba" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="478" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-e8" edge="1" parent="1" source="p1-c3" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p1-o8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Fase 2: desarrollo" id="i8ymzSDpDaGw6yN649vX">
+        <mxGraphModel dx="666" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="p2-sistema" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=5 4;fillColor=none;verticalAlign=top;fontStyle=1;fontSize=14;arcSize=3;" value="Fase 2: desarrollo" vertex="1">
+                    <mxGeometry height="510" width="300" x="190" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-ana" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Ana&lt;/b&gt;&lt;br&gt;Líder y Firebase" vertex="1">
+                    <mxGeometry height="80" width="40" x="50" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-c1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Compañero 1&lt;/b&gt;&lt;br&gt;Diseño de interfaz" vertex="1">
+                    <mxGeometry height="80" width="40" x="590" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-c2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Compañero 2&lt;/b&gt;&lt;br&gt;Código" vertex="1">
+                    <mxGeometry height="80" width="40" x="50" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-c3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Compañero 3&lt;/b&gt;&lt;br&gt;Pruebas y documentos" vertex="1">
+                    <mxGeometry height="80" width="40" x="590" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-o1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;" value="Coordinar al equipo" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-e1" edge="1" parent="1" source="p2-ana" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p2-o1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-o2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;" value="Revisar avances" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-e2" edge="1" parent="1" source="p2-ana" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p2-o2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-o3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B0E3E6;strokeColor=#0E8088;" value="Diseñar panel del docente" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="178" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-e3" edge="1" parent="1" source="p2-c1" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p2-o3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-o4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B0E3E6;strokeColor=#0E8088;" value="Diseñar panel del alumno" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="238" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-e4" edge="1" parent="1" source="p2-c1" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p2-o4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-o5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="Programar lecciones" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="298" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-e5" edge="1" parent="1" source="p2-c2" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p2-o5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-o6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="Programar exámenes" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="358" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-e6" edge="1" parent="1" source="p2-c2" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p2-o6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-o7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCCE6;strokeColor=#B5739D;" value="Probar cada función" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="418" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-e7" edge="1" parent="1" source="p2-c3" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p2-o7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-o8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCCE6;strokeColor=#B5739D;" value="Anotar errores" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="478" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-e8" edge="1" parent="1" source="p2-c3" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p2-o8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Fase 3: entrega" id="6sCBvOt6HiOAmcn3s75C">
+        <mxGraphModel dx="666" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="p3-sistema" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=5 4;fillColor=none;verticalAlign=top;fontStyle=1;fontSize=14;arcSize=3;" value="Fase 3: entrega" vertex="1">
+                    <mxGeometry height="510" width="300" x="190" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-ana" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Ana&lt;/b&gt;&lt;br&gt;Líder y Firebase" vertex="1">
+                    <mxGeometry height="80" width="40" x="50" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-c1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Compañero 1&lt;/b&gt;&lt;br&gt;Diseño de interfaz" vertex="1">
+                    <mxGeometry height="80" width="40" x="590" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-c2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Compañero 2&lt;/b&gt;&lt;br&gt;Código" vertex="1">
+                    <mxGeometry height="80" width="40" x="50" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-c3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;b&gt;Compañero 3&lt;/b&gt;&lt;br&gt;Pruebas y documentos" vertex="1">
+                    <mxGeometry height="80" width="40" x="590" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-o1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;" value="Publicar la página" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-e1" edge="1" parent="1" source="p3-ana" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p3-o1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-o2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;" value="Revisar permisos finales" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-e2" edge="1" parent="1" source="p3-ana" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p3-o2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-o3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B0E3E6;strokeColor=#0E8088;" value="Ajustar a celular" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="178" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-e3" edge="1" parent="1" source="p3-c1" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p3-o3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-o4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#B0E3E6;strokeColor=#0E8088;" value="Pulir detalles visuales" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="238" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-e4" edge="1" parent="1" source="p3-c1" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p3-o4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-o5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="Corregir errores" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="298" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-e5" edge="1" parent="1" source="p3-c2" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p3-o5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-o6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="Optimizar la carga" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="358" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-e6" edge="1" parent="1" source="p3-c2" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p3-o6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-o7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCCE6;strokeColor=#B5739D;" value="Probar con usuarios" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="418" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-e7" edge="1" parent="1" source="p3-c3" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p3-o7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-o8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFCCE6;strokeColor=#B5739D;" value="Documentar el sistema" vertex="1">
+                    <mxGeometry height="44" width="230" x="225" y="478" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3-e8" edge="1" parent="1" source="p3-c3" style="endArrow=none;html=1;rounded=0;strokeColor=#666666;" target="p3-o8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
